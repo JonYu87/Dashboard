@@ -15,6 +15,7 @@ import {
   Area,
   Bar,
   Pie,
+  Line,
   Financial,
   ColorPicker,
   ColorMapping,
@@ -65,7 +66,7 @@ const App = () => {
               className="fixed md:static
             bg-main-bg dark:bg-main-dark-bg"
             >
-              <NavBar />
+              <Navbar />
             </div>
           </div>
 
